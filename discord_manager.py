@@ -11,7 +11,7 @@ from discord.ext import commands
 # Discord token from VENV
 DISCORD_TOKEN = os.environ.get('MTU3NDY1NzMyOTU3MDM4NTk2MA.GlxGxW.DLEA5tCCXL67GVBTEN5uLhl8xPdDE5ZvLvpxB8')
 
-# Bot initialization
+# Bot initialization 
 intents = discord.Intents.all()
 activity = discord.Activity(type=discord.ActivityType.watching, name="!start")
 bot = commands.Bot(command_prefix='!', intents=intents, activity=activity)
