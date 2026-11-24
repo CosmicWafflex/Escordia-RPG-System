@@ -9,7 +9,7 @@ import info_msgs
 from discord.ext import commands
 
 # Discord token from VENV
-DISCORD_TOKEN = os.environ.get('MTU3NDY1NzMyOTU3MDM4NTk2MA.GlxGxW.DLEA5tCCXL67GVBTEN5uLhl8xPdDE5ZvLvpxB8')
+DISCORD_TOKEN = os.environ.get('MTU3NDY1NzMyOTU3MDM4NTk2MA.GOCaHC.r2o2teX4YoLpGwsDBz6p6K5BMBP3iu8ysZ2v30')
 
 # Bot initialization 
 intents = discord.Intents.all()
